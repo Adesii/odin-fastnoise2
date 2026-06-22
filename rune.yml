@@ -1,0 +1,17 @@
+version: 0
+platforms:
+ - Linux x86_64
+ - Windows x86_64
+ - macOS x86_64
+from:
+  language: c
+  static: FastNoise2/build/lib/libFastNoise.a
+  static.windows: FastNoise2/build/lib/libFastNoise.lib
+  headers: FastNoise2/include/FastNoise/FastNoise_C.h
+to:
+  language: odin
+  package: raw
+  trim_prefix:
+    functions: fn
+  use_when_else: yes
+  out: "raw/FastNoise.odin"
