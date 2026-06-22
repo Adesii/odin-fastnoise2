@@ -12,7 +12,7 @@ main :: proc() {
 	example_array := make([]f32, 64 * 64, context.allocator)
 	fn.GenTileable2D(node, example_array, {64, 64}, {32, 32}, 1337)
 
-	// You can also use the min max as optional parameter like this:
+	// You can also use the min max as a optional parameter like this:
 	// outputminmax := [2]f32{0.0, 1.0}
 	// fn.GenTileable2D(node, example_array, {64, 64}, {32, 32}, 1337, &outputminmax)
 
