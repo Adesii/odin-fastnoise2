@@ -1,4 +1,4 @@
-# Fast Noise 2 Odin
+# FastNoise2-Odin Bindings
 
 This is a simple Binding of [Fast Noise 2](https://github.com/Auburn/FastNoise2) for usage in Odin
 
