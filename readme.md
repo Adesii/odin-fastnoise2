@@ -6,6 +6,8 @@ i tried to make it a bit more idiomatic to Odin, but usage is the same as the or
 
 I haven't tested everything yet especially on multiple OS's so.. be aware of that. If you run into issues on windows or mac let me know.
 
+I used [runic](https://github.com/Samudevv/runic) to generate the initial bindings
+
 
 ## Usage
 
